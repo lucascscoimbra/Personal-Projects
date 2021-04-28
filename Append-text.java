@@ -8,7 +8,7 @@ public class AppendFile {
     public static void main(String[] args) {
 
         String path = System.getProperty("user.dir") + "\\src\\test.txt";
-        String text = "Added text";
+        String text = "First Test";
 
         try {
             Files.write(Paths.get(path), text.getBytes(), StandardOpenOption.APPEND);
