@@ -6,7 +6,7 @@ try:
     lat_2 = float(input('Inform the latitude from 2° city:'))
     long_2 = float(input("And finally, the 2° city's longitude:"))
 except ValueError:
-    print('Sorry, only numbers are allowed. Please enter the coordinates again:')
+    print('Sorry, only numbers are allowed. Please type the coordinates again:')
 #Then, we must convert the latitude and longitude values from decimal degrees to radians.
 lat_1 = math.radians(lat_1)
 long_1 = math.radians(long_1)
